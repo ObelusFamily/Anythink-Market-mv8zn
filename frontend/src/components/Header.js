@@ -35,7 +35,7 @@ const LoggedInView = (props) => {
 
         <li className="nav-item">
           <Link to="/settings" className="nav-link">
-            <i className="ion-gear-a"></i>&nbsp;Settings
+            <i className="ion-gear-a"></i>&nbsp;Settings test
           </Link>
         </li>
 
