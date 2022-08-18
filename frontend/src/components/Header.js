@@ -25,6 +25,7 @@ const LoggedOutView = (props) => {
 
 const LoggedInView = (props) => {
   if (props.currentUser) {
+    props.currentUser.image = "../placeholder.png"
     return (
       <ul className="navbar-nav ml-auto">
         <li className="nav-item">
